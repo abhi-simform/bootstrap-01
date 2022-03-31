@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;800;900&display=swap");
+
+:root {
+   --font: "Source Sans Pro", sans-serif;
+}
+
+body {
+   font-family: var(--font);
+}
+
+section {
+   padding-block: 100px;
+}
+
+.material-icons.md-48 {
+   font-size: 48px;
+}
+
+.hero-section {
+   background-image: url("assets/img/bg-masthead.jpg");
+   padding: 100px 0;
+   background-position: bottom left;
+   background-size: cover;
+}
+
+.hero-title {
+   font-size: 64px;
+}
+
+.hero-description {
+   font-size: 24px;
+   font-style: italic;
+}
+
+.btn {
+   display: inline-block;
+   padding: 20px 40px;
+   margin-top: 30px;
+   max-width: 200px;
+}
+
+.welcome {
+   background-image: url("assets/img/bg-callout.jpg");
+   background-size: cover;
+   padding-block: 250px;
+}
+
+.welcome-title {
+   max-width: 480px;
+   font-size: 56px;
+}
+
+.projects .container {
+   max-width: 90%;
+   margin-inline: auto;
+}
+
+.project-card {
+   padding: 10rem 2rem 2rem 2rem;
+}
+
+.project-card {
+   background-image: url("assets/img/portfolio-1.jpg");
+   background-size: cover;
+}
+
+.project-card:nth-child(2) {
+   background-image: url("assets/img/portfolio-2.jpg");
+}
+
+.project-card:nth-child(3) {
+   background-image: url("assets/img/portfolio-3.jpg");
+}
+
+.project-card:nth-child(4) {
+   background-image: url("assets/img/portfolio-4.jpg");
+}
+
+.map {
+   display: block;
+   width: 100%;
+   height: 100vw;
+   height: 500px !important;
+}
+
+@media (min-width: 768px) {
+   section {
+      padding-block: 120px;
+   }
+}
+
+@media (min-width: 992px) {
+   .hero-section {
+      min-height: 95vh;
+   }
+   .hero-title {
+      font-size: 88px;
+   }
+}
